@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, FlatList, Button, StyleSheet, Alert } from 'react-native';
 
-const API_URL = 'http://192.168.56.1:5000';
+const API_URL = 'http://192.168.1.176:5000';
 
 export default function HomeScreen() {
   const [services, setServices] = useState([]);
