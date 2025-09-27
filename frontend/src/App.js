@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
-const API_URL = 'http://localhost:5000'; // Change to your backend URL if needed
+// Use the environment variable from Render-test
+const API_URL = process.env.REACT_APP_API_URL;
 
 export default function App() {
   const [services, setServices] = useState([]);
