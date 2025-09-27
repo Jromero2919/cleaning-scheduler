@@ -18,7 +18,7 @@ app.use('/services', serviceRoutes);
 app.use('/bookings', bookingRoutes);
 
 // Connect to MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/cleaningScheduler', {
+mongoose.connect('mongodb+srv://marily56us:<db_password>@regression.kzfgypm.mongodb.net/cleaningScheduler', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => console.log('MongoDB connected'));
